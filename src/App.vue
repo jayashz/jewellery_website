@@ -21,12 +21,11 @@
 
   <!--Slider section-->
   
-  <section id="slider"><!--Slider section-->
+  <div class="Slider"><!--Slider section-->
     <div class="fullslider">
     <div class="slider-model">
       <img src="public/slider-model.jpg" alt="Jewellery girl" class="model">
     </div>
-
     <div class="slider-content">
       <div class="slider-content-head">
         <h1>PREMIUM HANDMADE JEWELLERY ON EVERY OCCASION</h1>
@@ -37,17 +36,15 @@
           demonstrate the visual form of a document
           or a typeface without relying.
         </p>
+        <button class="btn">FIND OUT MORE</button>
       </div>
-      <div class="slider-content-button">
-
-      </div>
-
-      <div class="slider-diamond">
-        <img src="public/diamond.png" alt="img_logo" class="slider-diamond-logo" />
-      </div>
+      
+    </div>
+    <div class="slider-diamond">
+      <img src="public/diamond.png" alt="img_logo" class="slider-diamond-logo" />
     </div>
   </div>
-  </section>
+</div>
 
   <section class="hero_section">
     <div class="hero-section">
@@ -96,16 +93,19 @@
       <div class="hero-banner">
         <div class="lefthero-banner">
           <img src="leftbanner.jpg" alt="" id="leftmodel">
+          <div class="banner-ad-left">
           <p id="leftbanner-description">NEW <br />SPRING<br /> COLLECTION</p>
+          </div>
         </div>
         <div class="righthero-banner">
           <img src="rightnbanner.jpg" alt="" id="rightmodel">
           <div class="rightbanner-texts">
+            <div banner-ad-right>
             <p id="rightbanner-head">20%<br />OFF</p>
             <p id="rightbanner-description">In publishing and <br /> graphic design,<br />Lorem ipsum is a
               <br />placeholder</p>
-            <a href="#" style="color: red;">Products</a>
-
+            <a href="#" style="letter-spacing: 2px; color: red;">Products</a>
+          </div>
           </div>
         </div>
       </div>
@@ -258,35 +258,39 @@ ul li {
   z-index: 0;
   top: -25%;
 }
-.fullslider{
-  display: flex;
+.Slider{
+
   position: relative;
-  justify-content: space-between;
-  background-color: black;
 }
-.slider {
+
+.fullslider{
   width: 100%;
+  background-color: black;
   display: flex;
 }
+slider-model{
+  overflow-y: hidden;
+}
+.model{
+width: 100%;
+height: 100%;
 
-.slider-model {
-  background-color: #030303;
-  height: 100%;
+
 }
 
-.model {
-  width: 70%;
-  height: 100%;
-  object-fit: cover;
-
-}
 
 .slider-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
+  justify-content: center;
+  z-index: 2;
 
+
+}
+.slider-content-head{
+  line-height: 2.5rem;
+  margin-bottom: 1rem;
+}
 .slider-content-head h1 {
   color: #AB9D90;
   font-size: 33px;
@@ -294,12 +298,23 @@ ul li {
 
 .slider-content p {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  line-height: 19px;
+  padding-right: 2rem;
 }
-
+.btn{
+  color: #AB9D90;
+  border: 1px solid #403732;
+  background-color: transparent;
+  padding: 10px;
+  margin-top: 1.5rem;
+  width: 8rem;
+  cursor: pointer;
+}
 .slider-diamond {
-  width: 59px;
-  height: 59px;
+  width: 50px;
+  height: 50px;
   z-index: 3;
   background-color: #ffffff;
   position: absolute;
@@ -307,7 +322,8 @@ ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  bottom: -25px;
+  left: 48.2%;
 }
 
 .slider-diamond-logo {
@@ -319,15 +335,18 @@ ul li {
 
 .hero-section {
   width: 100%;
-  height: 70rem;
+  height: 120vh;
+  padding: 0 8rem;
   background-color: #403732;
+  display: flex;
 }
 
 .hero-product {
   position: relative;
   background-color: #403732;
-  top: 15%;
+  top: 10%;
   left: 10%;
+  padding: 0 8rem;
   height: 25rem;
   width: 80%;
   text-align: center;
@@ -337,6 +356,7 @@ ul li {
 .hero-head {
   font-size: 64px;
   color: white;
+  text-align: center;
 }
 
 .hero-subhead {
@@ -346,13 +366,12 @@ ul li {
 }
 
 .hero-icons-container {
-  position: absolute;
-  width: 100%;
-  height: 50%;
+  /* position: relative; */
+  /* width: 100%;
+  height: 50%; */
   z-index: 2;
+  margin: 4rem 0;
   background-color: #403732;
-  bottom: 0;
-  left: 0;
   display: flex;
   justify-content: space-between;
 }
@@ -377,7 +396,6 @@ ul li {
 }
 
 .hero-icon-inside {
-  position: inherit;
   margin-top: 21px;
   margin-left: 4px;
 }
@@ -396,7 +414,7 @@ ul li {
   height: 100%;
   position: relative;
   z-index: 2;
-  background-color: red;
+
   overflow: hidden;
 
 }
@@ -406,18 +424,21 @@ ul li {
   height: 100%;
   position: relative;
   z-index: 2;
-  background-color: green;
+
   overflow: hidden;
 }
 
 #leftmodel {
   width: 100%;
-  position: relative;
+  height: 90%;
+  object-fit: cover;
+
 
 }
 
 #rightmodel {
   width: 100%;
+  height: 90%;
   object-fit: cover;
 }
 
@@ -425,8 +446,8 @@ ul li {
   z-index: 3;
   font-size: 46px;
   position: absolute;
-  top: 50%;
-  margin: 0 auto;
+  top: 30%;
+
   left: 18%;
   color: #ffffff;
   line-height: 55px;
@@ -435,18 +456,21 @@ ul li {
 .rightbanner-texts {
   position: absolute;
   z-index: 3;
-  top: 40%;
+  top: 20%;
   left: 18%;
-  color: white;
+  color:  #4E4540;
 
 }
 
 #rightbanner-head {
   font-size: 64px;
+  line-height: 4rem;
 }
 
 #rightbanner-description {
-  font-size: 14px;
+  font-size: 14px;  
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
 }
 
 .gallery-item {
