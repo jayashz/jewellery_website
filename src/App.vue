@@ -6,305 +6,324 @@
   <!--Nav bar section-->
   <section id="navbar">
     <nav class="nav_navbar">
-    <ul class="navbar_links">
-      <li class="nav_links"><a href="#">HOME</a></li>
-      <li class="nav_links"><a href="#">PRODUCT</a></li>
-      <div class="nav_logo">
-        <a href="#">JEWELLERY</a>
-        <img src="public/diamond.png" alt="img_logo" class="img_logo"/>
-      </div>
-      <li class="nav_links"><a href="#">SERVICES</a></li>
-      <li class="nav_links"><a href="#">CONTACT</a></li>
-    </ul>
-  </nav>
+      <ul class="navbar_links">
+        <li class="nav_links"><a href="#">HOME</a></li>
+        <li class="nav_links"><a href="#">PRODUCT</a></li>
+        <div class="nav_logo">
+          <a href="#">JEWELLERY</a>
+          <img src="public/diamond.png" alt="img_logo" class="img_logo" />
+        </div>
+        <li class="nav_links"><a href="#">SERVICES</a></li>
+        <li class="nav_links"><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
   </section>
 
   <!--Slider section-->
-  <section id="slider">
-  <div class="slider-model">
-    <img src="public/slider-model.jpg" alt="Jewellery girl" class="model" >
+  
+  <section id="slider"><!--Slider section-->
+    <div class="fullslider">
+    <div class="slider-model">
+      <img src="public/slider-model.jpg" alt="Jewellery girl" class="model">
+    </div>
+
+    <div class="slider-content">
+      <div class="slider-content-head">
+        <h1>PREMIUM HANDMADE JEWELLERY ON EVERY OCCASION</h1>
+      </div>
+      <div class="slider-content-description">
+        <p>In publishing and graphic design, Lorem ipsum
+          is a placeholder text commonly used to
+          demonstrate the visual form of a document
+          or a typeface without relying.
+        </p>
+      </div>
+      <div class="slider-content-button">
+
+      </div>
+
+      <div class="slider-diamond">
+        <img src="public/diamond.png" alt="img_logo" class="slider-diamond-logo" />
+      </div>
+    </div>
   </div>
+  </section>
 
-  <div class="slider-content">
-    <div class="slider-content-head">
-      <h1>PREMIUM HANDMADE JEWELLERY ON EVERY OCCASION</h1>
-    </div>
-    <div class="slider-content-description">
-      <p>In publishing and graphic design, Lorem ipsum
-        is a placeholder text commonly used to 
-        demonstrate the visual form of a document 
-        or a typeface without relying.
-      </p>
-    </div>
-    <div class="slider-content-button">
+  <section class="hero_section">
+    <div class="hero-section">
+      <div class="hero-product">
+        <p class="hero-head">3000</p>
+        <p class="hero-subhead">exclusive products</p>
+        <div class="hero-icons-container">
+          <div class="hero-icon">
+            <div class="circle">
+              <img src="public/ring-icon.png" alt="ring" class="hero-icon-inside">
+            </div>
+            <p class="hero-icon-description">Rings</p>
+          </div>
+          <div class="hero-icon">
+            <div class="circle">
+              <img src="public/bracelet.png" alt="ring" class="hero-icon-inside">
+            </div>
+            <p class="hero-icon-description">Bracelets</p>
+          </div>
+          <div class="hero-icon">
+            <div class="circle">
+              <img src="public/necklace.png" alt="ring" class="hero-icon-inside">
+            </div>
+            <p class="hero-icon-description">Necklace</p>
+          </div>
+          <div class="hero-icon">
+            <div class="circle">
+              <img src="public/earings.png" alt="ring" class="hero-icon-inside">
+            </div>
+            <p class="hero-icon-description">Earrings</p>
+          </div>
+          <div class="hero-icon">
+            <div class="circle">
+              <img src="public/tarias.png" alt="ring" class="hero-icon-inside">
+            </div>
+            <p class="hero-icon-description">Tiaras</p>
+          </div>
+          <div class="hero-icon">
+            <div class="circle">
+              <img src="watch.png" alt="ring" class="hero-icon-inside">
+            </div>
+            <p class="hero-icon-description">Watches</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-banner">
+        <div class="lefthero-banner">
+          <img src="leftbanner.jpg" alt="" id="leftmodel">
+          <p id="leftbanner-description">NEW <br />SPRING<br /> COLLECTION</p>
+        </div>
+        <div class="righthero-banner">
+          <img src="rightnbanner.jpg" alt="" id="rightmodel">
+          <div class="rightbanner-texts">
+            <p id="rightbanner-head">20%<br />OFF</p>
+            <p id="rightbanner-description">In publishing and <br /> graphic design,<br />Lorem ipsum is a
+              <br />placeholder</p>
+            <a href="#" style="color: red;">Products</a>
 
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <div class="slider-diamond">
-      <img src="public/diamond.png" alt="img_logo" class="slider-diamond-logo"/>
-    </div>
-  </div>
+  </section>
+  <section class="Product_gallery">
+    <div class="product-gallery">
+      <div class="gallery-item">
+        <img src="1.png" alt="" class="gallery-picture">
+        <div class="product-price">
+          <p>Dark earings</p>
+          <p>$10.00-&20.00</p>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="2.png" alt="" class="gallery-picture">
+        <div class="product-price">
+          <p>Dark earings</p>
+          <p>$10.00-&20.00</p>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <img src="3.png" alt="" class="gallery-picture">
+        <div class="product-price">
+          <p>Dark earings</p>
+          <p>$10.00-&20.00</p>
+        </div>
 
+      </div>
+      <div class="gallery-item">
+        <img src="4.png" alt="" class="gallery-picture">
+        <div class="product-price">
+          <p>Dark earings</p>
+          <p>$10.00-&20.00</p>
+        </div>
+
+      </div>
+      <div class="gallery-item">
+        <img src="5.png" alt="" class="gallery-picture">
+        <div class="product-price">
+          <p>Dark earings</p>
+          <p>$10.00-&20.00</p>
+        </div>
+
+      </div>
+      <div class="gallery-item">
+        <img src="6.png" alt="" class="gallery-picture">
+        <div class="product-price">
+          <p>Dark earings</p>
+          <p>$10.00-&20.00</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="Gallery">
+    <div class="gallery">
+      <div class="ribbon-picture">
+        <img src="ribbon-1.jpg" alt="jewellery girl" class="ribbon-model">
+      </div>
+      <div class="ribbon-picture">
+        <img src="ribbon-2.jpg" alt="jewellery girl" class="ribbon-model">
+      </div>
+      <div class="ribbon-picture">
+        <img src="ribbon-3.jpg" alt="jewellery girl" class="ribbon-model">
+      </div>
+      <div class="ribbon-picture">
+        <img src="ribbon-4.jpg" alt="jewellery girl" class="ribbon-model">
+      </div>
+      <div class="ribbon-picture">
+        <img src="ribbon-5.jpg" alt="jewellery girl" class="ribbon-model">
+      </div>
+      <div class="ribbon-picture">
+        <img src="ribbon-6.jpg" alt="jewellery girl" class="ribbon-model">
+      </div>
+    </div>
 
   </section>
 
-<section class="hero_section">
-  <div class="hero-section">
-    <div class="hero-product">
-      <p class="hero-head">3000</p>
-      <p class="hero-subhead">exclusive products</p>
-      <div class="hero-icons-container">
-        <div class="hero-icon">
-          <div class="circle">
-            <img src="public/ring-icon.png" alt="ring" class="hero-icon-inside">
-          </div>
-          <p class="hero-icon-description">Rings</p>
-        </div>
-        <div class="hero-icon">
-          <div class="circle">
-            <img src="public/bracelet.png" alt="ring" class="hero-icon-inside">
-          </div>
-          <p class="hero-icon-description">Bracelets</p>
-        </div>
-        <div class="hero-icon">
-          <div class="circle">
-            <img src="public/necklace.png" alt="ring" class="hero-icon-inside">
-          </div>
-          <p class="hero-icon-description">Necklace</p>
-        </div>
-        <div class="hero-icon">
-          <div class="circle">
-            <img src="public/earings.png" alt="ring" class="hero-icon-inside">
-          </div>
-          <p class="hero-icon-description">Earrings</p>
-        </div>
-        <div class="hero-icon">
-          <div class="circle">
-            <img src="public/tarias.png" alt="ring" class="hero-icon-inside">
-          </div>
-          <p class="hero-icon-description">Tiaras</p>
-        </div>
-        <div class="hero-icon">
-          <div class="circle">
-            <img src="watch.png" alt="ring" class="hero-icon-inside">
-          </div>
-          <p class="hero-icon-description">Watches</p>
+  <section class="FOOTER">
+    <div class="footer">
+      <div class="footer-1">
+        <div class="footer_logo">
+          <a href="#">JEWELLERY</a>
+          <img src="public/diamond.png" alt="img_logo" class="footer-diamond" />
         </div>
       </div>
+      <div class="footer-2"></div>
+      <div class="footer-3"></div>
+      <div class="footer-4"></div>
     </div>
-    <div class="hero-banner">
-      <div class="lefthero-banner">
-        <img src="leftbanner.jpg" alt="" id="leftmodel">
-        <p id="leftbanner-description">NEW <br/>SPRING<br/> COLLECTION</p>
-      </div>
-      <div class="righthero-banner">
-        <img src="rightnbanner.jpg" alt="" id="rightmodel">
-        <div class="rightbanner-texts">
-          <p id="rightbanner-head">20%<br/>OFF</p>
-          <p id="rightbanner-description">In publishing and <br/> graphic design,<br/>Lorem ipsum is a <br/>placeholder</p>
-          <a href="#" style="color: red;">Products</a>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="Product_gallery">
-  <div class="product-gallery">
-    <div class="gallery-item">
-      <img src="1.png" alt="" class="gallery-picture">
-      <div class="product-price">
-        <p>Dark earings</p>
-        <p>$10.00-&20.00</p>
-      </div>
-    </div>
-    <div class="gallery-item">
-      <img src="2.png" alt="" class="gallery-picture">
-      <div class="product-price">
-        <p>Dark earings</p>
-        <p>$10.00-&20.00</p>
-      </div>
-    </div>
-    <div class="gallery-item">
-      <img src="3.png" alt="" class="gallery-picture">
-      <div class="product-price">
-        <p>Dark earings</p>
-        <p>$10.00-&20.00</p>
-      </div>
-      
-    </div>
-    <div class="gallery-item">
-      <img src="4.png" alt="" class="gallery-picture">
-      <div class="product-price">
-        <p>Dark earings</p>
-        <p>$10.00-&20.00</p>
-      </div>
-      
-    </div>
-    <div class="gallery-item">
-      <img src="5.png" alt="" class="gallery-picture">
-      <div class="product-price">
-        <p>Dark earings</p>
-        <p>$10.00-&20.00</p>
-      </div>
-      
-    </div>
-    <div class="gallery-item">
-      <img src="6.png" alt="" class="gallery-picture">
-      <div class="product-price">
-        <p>Dark earings</p>
-        <p>$10.00-&20.00</p>
-      </div>
-      
-    </div>
-  </div>
-</section>
-
-<section class="Gallery">
-  <div class="gallery">
-    <div class="ribbon-picture">
-      <img src="ribbon-1.jpg" alt="jewellery girl" class="ribbon-model">
-    </div>
-    <div class="ribbon-picture">
-      <img src="ribbon-2.jpg" alt="jewellery girl" class="ribbon-model">
-    </div>
-    <div class="ribbon-picture">
-      <img src="ribbon-3.jpg" alt="jewellery girl" class="ribbon-model">
-    </div>
-    <div class="ribbon-picture">
-      <img src="ribbon-4.jpg" alt="jewellery girl" class="ribbon-model">
-    </div>
-    <div class="ribbon-picture">
-      <img src="ribbon-5.jpg" alt="jewellery girl" class="ribbon-model">
-    </div>
-    <div class="ribbon-picture">
-      <img src="ribbon-6.jpg" alt="jewellery girl" class="ribbon-model">
-    </div>
-  </div>
-
-</section>
-
-<section class="FOOTER">
-  <div class="footer">
-    <div class="footer-1">
-      <div class="footer_logo">
-        <a href="#">JEWELLERY</a>
-        <img src="public/diamond.png" alt="img_logo" class="footer-diamond"/>
-      </div>
-    </div>
-    <div class="footer-2"></div>
-    <div class="footer-3"></div>
-    <div class="footer-4"></div>
-  </div>
-</section>
+  </section>
 </template>
 
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Heebo', sans-serif;
-  }
-  .nav_navbar{
-    width: 100%;
-    padding: 1.5rem 0;
-    background-color: #272727;
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 
-  }
-  .navbar_links{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Heebo', sans-serif;
+}
 
-    align-items: center;
-    display: flex;
-    justify-content: center;
-  }
-  ul li{
-    list-style: none;
-  }
-  .nav_logo{
-    margin: 0 19rem;
-    display: flex;
-    position: relative;
-    justify-content: center;
+.nav_navbar {
+  width: 100%;
+  padding: 1.5rem 0;
+  background-color: #272727;
 
-  }
-  .nav_logo a{
-    z-index: 2;
-    font-size: 16px;
-    color: #beb698;
-  }
-  .nav_links{
-    margin: 0 1.5rem;
-  }
-  .nav_links a{
-    font-size: 14px;
-    color: white;
-  }
-  .img_logo{
-    position: absolute;
-    z-index: 0;
-    top: -25%;
-  }
-  .slider{
-    width: 100%;
-    height: 628px;
-    display: flex;
-  }
-  .slider-model{
-      background-color: #030303;
-      height: 665.133px;
-  }
-  
-  .model{
-    width: 70%;
-    height: 100%;
-    object-fit: cover;
+}
 
-  }
-  .slider-content{
-    height: 281px;
-    width: 451px;
-    left: 774px;
-    top: 204px;
-    border-radius: 3px;
-    background-color: #030303;
-    position: absolute;
-    z-index: 2;
-  }
-.slider-content-head h1{
+.navbar_links {
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  list-style: none;
+}
+
+.nav_logo {
+  margin: 0 19rem;
+  display: flex;
+  position: relative;
+  justify-content: center;
+
+}
+
+.nav_logo a {
+  z-index: 2;
+  font-size: 16px;
+  color: #beb698;
+}
+
+.nav_links {
+  margin: 0 1.5rem;
+}
+
+.nav_links a {
+  font-size: 14px;
+  color: white;
+}
+
+.img_logo {
+  position: absolute;
+  z-index: 0;
+  top: -25%;
+}
+.fullslider{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  background-color: black;
+}
+.slider {
+  width: 100%;
+  display: flex;
+}
+
+.slider-model {
+  background-color: #030303;
+  height: 100%;
+}
+
+.model {
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.slider-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-content-head h1 {
   color: #AB9D90;
   font-size: 33px;
 }
-.slider-content p{
+
+.slider-content p {
   color: #ffffff;
   font-size: 14px;
 }
-.slider-diamond{
+
+.slider-diamond {
   width: 59px;
-height: 59px;
-  z-index: 2;
+  height: 59px;
+  z-index: 3;
   background-color: #ffffff;
-  position:absolute;
-  top: 44.375rem;
-  left: 42rem;
+  position: absolute;
   transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
-.slider-diamond-logo{
-  position: relative;
-  top:25%;
-  left:22%;
+
+.slider-diamond-logo {
+
   transform: rotate(-45deg);
 
 
 }
-.hero-section{
+
+.hero-section {
   width: 100%;
   height: 70rem;
   background-color: #403732;
 }
-.hero-product{
+
+.hero-product {
   position: relative;
   background-color: #403732;
   top: 15%;
@@ -314,18 +333,21 @@ height: 59px;
   text-align: center;
 
 }
+
 .hero-head {
-font-size: 64px;
-color: white;
+  font-size: 64px;
+  color: white;
 }
-.hero-subhead{
+
+.hero-subhead {
   font-size: 32px;
   margin-top: -20px;
   color: white;
 }
-.hero-icons-container{
+
+.hero-icons-container {
   position: absolute;
-  width:100%;
+  width: 100%;
   height: 50%;
   z-index: 2;
   background-color: #403732;
@@ -334,36 +356,42 @@ color: white;
   display: flex;
   justify-content: space-between;
 }
-.hero-icon{
+
+.hero-icon {
   background-color: #403732;
   width: 120px;
-  height:160px
+  height: 160px
 }
-.circle{
+
+.circle {
   height: 120px;
   width: 120px;
   border-radius: 50%;
   border: 1.5px solid white;
 }
-.hero-icon-description{
+
+.hero-icon-description {
   color: white;
   position: relative;
   margin-top: 14px;
 }
-.hero-icon-inside{
+
+.hero-icon-inside {
   position: inherit;
   margin-top: 21px;
   margin-left: 4px;
 }
-.hero-banner{
+
+.hero-banner {
   width: 80%;
-  height:40rem;
+  height: 40rem;
   position: absolute;
   top: 95rem;
   left: 10%;
   display: flex;
 }
-.lefthero-banner{
+
+.lefthero-banner {
   width: 50%;
   height: 100%;
   position: relative;
@@ -372,7 +400,8 @@ color: white;
   overflow: hidden;
 
 }
-.righthero-banner{
+
+.righthero-banner {
   width: 50%;
   height: 100%;
   position: relative;
@@ -380,16 +409,19 @@ color: white;
   background-color: green;
   overflow: hidden;
 }
-#leftmodel{
+
+#leftmodel {
   width: 100%;
   position: relative;
-  
+
 }
-#rightmodel{
+
+#rightmodel {
   width: 100%;
   object-fit: cover;
 }
-#leftbanner-description{
+
+#leftbanner-description {
   z-index: 3;
   font-size: 46px;
   position: absolute;
@@ -399,22 +431,25 @@ color: white;
   color: #ffffff;
   line-height: 55px;
 }
-.rightbanner-texts{
-  position:absolute;
+
+.rightbanner-texts {
+  position: absolute;
   z-index: 3;
   top: 40%;
   left: 18%;
   color: white;
 
 }
-#rightbanner-head{
+
+#rightbanner-head {
   font-size: 64px;
 }
-#rightbanner-description{
+
+#rightbanner-description {
   font-size: 14px;
 }
 
-.gallery-item{
+.gallery-item {
   width: 310px;
   height: 380px;
   background-color: #F9F2EC;
@@ -422,7 +457,8 @@ color: white;
 
 
 }
-.product-gallery{
+
+.product-gallery {
   position: relative;
   margin-top: 25rem;
   display: grid;
@@ -430,21 +466,24 @@ color: white;
   margin-left: 8rem;
   margin-right: 8rem;
 }
-.gallery-picture{
+
+.gallery-picture {
   position: relative;
   left: 10%;
   top: 10%;
   max-width: 80%;
   max-height: 80%;
-  
+
 }
-.product-price{
+
+.product-price {
   position: relative;
   margin-left: 1rem;
   margin-top: 3.5rem;
   font-size: 14px;
 }
-.gallery{
+
+.gallery {
   width: 80%;
   height: 160px;
   background-color: black;
@@ -454,48 +493,55 @@ color: white;
   display: flex;
 
 }
-.ribbon-picture{
+
+.ribbon-picture {
   width: 16.6667%;
   height: 100%;
   background-color: red;
   z-index: 3;
   overflow: hidden;
 }
-.ribbon-model{
+
+.ribbon-model {
 
   width: 100%;
 }
-.footer{
+
+.footer {
   margin: 10rem;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
-.footer-1{
+
+.footer-1 {
   background-color: aqua;
   height: 230px;
   width: 220px;
 }
-.footer-diamond{
+
+.footer-diamond {
   z-index: 2;
   position: relative;
 }
-.footer-logo{
 
-    display: flex;
-    position: relative;
-    justify-content: center;
+.footer-logo {
+
+  display: flex;
+  position: relative;
+  justify-content: center;
 }
-.footer-2{
+
+.footer-2 {
   width: 230px;
   height: 200px;
   background-color: blue;
 
 }
-.footer-3{
+
+.footer-3 {
   background-color: chartreuse;
 }
-.footer-4{
-  background-color: darkorchid;
-}
 
-</style>
+.footer-4 {
+  background-color: darkorchid;
+}</style>
