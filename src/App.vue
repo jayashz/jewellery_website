@@ -1,5 +1,10 @@
 <script setup>
   import Products from './components/Products.vue';
+  import hero from'./components/hero.vue';
+  import footers from'./components/footer.vue';
+  import ribbon from'./components/ribbon.vue';
+  import slider from'./components/slider.vue';
+  
   
 </script>
 
@@ -11,189 +16,27 @@
         <li class="nav_links"><a href="#">HOME</a></li>
         <li class="nav_links"><a href="#product">PRODUCT</a></li>
         <div class="nav_logo">
-          <a href="#">JEWELLERY</a>
-          <img src="public/diamond.png" alt="img_logo" class="img_logo" />
+          <a href="#" id="logo-text">JEWELLERY</a>
+          <img src="public/diamond.svg" alt="img_logo" class="img_logo" />
         </div>
         <li class="nav_links"><a href="#">SERVICES</a></li>
         <li class="nav_links"><a href="#">CONTACT</a></li>
       </ul>
-    </nav>
+    </nav>f
   </section>
 
-  <!--Slider section-->
+
   
-  <div class="Slider"><!--Slider section-->
-    <div class="fullslider">
-    <div class="slider-model">
-      <img src="public/slider-model.jpg" alt="Jewellery girl" class="model">
-    </div>
-    <div class="slider-content">
-      <div class="slider-content-head">
-        <h1>PREMIUM HANDMADE<br/>JEWELLERY ON EVERY<br/>OCCASION</h1>
-      </div>
-      <div class="slider-content-description">
-        <p>In publishing and graphic design, Lorem ipsum
-          is a placeholder text commonly used to
-          demonstrate the visual form of a document
-          or a typeface without relying.
-        </p>
-        <button class="btn">FIND OUT MORE</button>
-      </div>
-      
-    </div>
-    <div class="slider-diamond">
-      <img src="public/diamond.png" alt="img_logo" class="slider-diamond-logo" />
-    </div>
-  </div>
-</div>
+  <slider/>
 
-  <section class="hero_section">
-    <div class="hero-section">
-      <div class="hero-product">
-        <p class="hero-head">3000</p>
-        <p class="hero-subhead">exclusive products</p>
-        <div class="hero-icons-container">
-          <div class="hero-icon">
-            <div class="circle">
-              <img src="public/ring-icon.png" alt="ring" class="hero-icon-inside">
-            </div>
-            <p class="hero-icon-description">Rings</p>
-          </div>
-          <div class="hero-icon">
-            <div class="circle">
-              <img src="public/bracelet.png" alt="ring" class="hero-icon-inside">
-            </div>
-            <p class="hero-icon-description">Bracelets</p>
-          </div>
-          <div class="hero-icon">
-            <div class="circle">
-              <img src="public/necklace.png" alt="ring" class="hero-icon-inside">
-            </div>
-            <p class="hero-icon-description">Necklace</p>
-          </div>
-          <div class="hero-icon">
-            <div class="circle">
-              <img src="public/earings.png" alt="ring" class="hero-icon-inside">
-            </div>
-            <p class="hero-icon-description">Earrings</p>
-          </div>
-          <div class="hero-icon">
-            <div class="circle">
-              <img src="public/tarias.png" alt="ring" class="hero-icon-inside">
-            </div>
-            <p class="hero-icon-description">Tiaras</p>
-          </div>
-          <div class="hero-icon">
-            <div class="circle">
-              <img src="watch.png" alt="ring" class="hero-icon-inside">
-            </div>
-            <p class="hero-icon-description">Watches</p>
-          </div>
-        </div>
-      </div>
-      <div class="hero-banner">
-        <div class="lefthero-banner">
-          <img src="leftbanner.jpg" alt="" id="leftmodel">
-          <div class="banner-ad-left">
-          <p id="leftbanner-description">NEW <br />SPRING<br /> COLLECTION</p>
-          </div>
-        </div>
-        <div class="righthero-banner">
-          <img src="rightnbanner.jpg" alt="" id="rightmodel">
-          <div class="rightbanner-texts">
-            <div banner-ad-right>
-            <p id="rightbanner-head">20%<br />OFF</p>
-            <p id="rightbanner-description">In publishing and <br /> graphic design,<br />Lorem ipsum is a
-              <br />placeholder</p>
-            <a href="#" style="letter-spacing: 2px; color: red;">Products</a>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <hero/>
 
   <Products />
 
-  <section class="Gallery">
-    <div class="gallery">
-      <div class="ribbon-picture">
-        <img src="ribbon-6.jpg" alt="jewellery girl" class="ribbon-model">
-      </div>
-      <div class="ribbon-picture">
-        <img src="ribbon-6.jpg" alt="jewellery girl" class="ribbon-model">
-      </div>
-      <div class="ribbon-picture">
-        <img src="ribbon-6.jpg" alt="jewellery girl" class="ribbon-model">
-      </div>
-      <div class="ribbon-picture">
-        <img src="ribbon-6.jpg" alt="jewellery girl" class="ribbon-model">
-      </div>
-      <div class="ribbon-picture">
-        <img src="ribbon-6.jpg" alt="jewellery girl" class="ribbon-model">
-      </div>
-      <div class="ribbon-picture">
-        <img src="ribbon-6.jpg" alt="jewellery girl" class="ribbon-model">
-      </div>
-    </div>
+  <ribbon/>
 
-  </section>
+  <footers/>
 
-  <section class="FOOTER">
-    <div class="footer">
-      <div class="footer-1">
-        <div class="footer_logo">
-          <div class="text">
-            <a href="#">JEWELLERY</a>
-          </div>
-          <img src="public/diamond.png" alt="img_logo" class="footer-diamond" />
-        </div>
-        <div class="footer-1-description">
-          <p>Quam pulvinar leo euismod id eu <br/>ultricies, Placerat proin rhoncus sit.</p>
-        </div>
-        <div class="footer-1-ContactUs"><a href="#">Contact Us</a></div>
-        <div class="footer-1-logo-collection">
-          <div class="footer-1-logo"><img src="icon _Visa_.png" alt="">
-          </div>
-          <div class="footer-1-logo"><img src="icon _PayPal_.png" alt="">
-          </div>
-          <div class="footer-1-logo"><img src="icon _MasterCard_.png" alt="">
-          </div>
-          <div class="footer-1-logo"><img src="icon _maestro_.png" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="footer-2">
-        <p class="footer-headers">Useful links</p>
-        <a href="#" class="foooter-link">Contact us</a>
-        <a href="#" class="foooter-link">Help and About us</a>
-        <a href="#" class="foooter-link">Shipping and Returns</a>
-        <a href="#" class="foooter-link">Refund Policy</a>
-        <p class="footer-headers">Delivery</p>
-        <a href="#" class="foooter-link">How it works</a>
-        <a href="#" class="foooter-link">Free delivery</a>
-        <a href="#" class="foooter-link">FAQ</a>
-      </div>
-      <div class="footer-3">
-        <p class="footer-headers">Customer Service</p>
-        <a href="#" class="footer-link">Orders</a>
-        <a href="#" class="footer-link">Downloads</a>
-        <a href="#" class="footer-link">Adresses</a>
-        <a href="#" class="footer-link">Account Details</a>
-        <a href="#" class="footer-link">Lost password</a>
-      </div>
-      <div class="footer-4">
-        <p class="footer-headers">Customer Service</p>
-        <a href="#" class="footer-header">+61 (0) 383 766 284</a>
-        <a href="#" class="footer-header">+61 (0) 383 766 284</a>
-        <p class="#" :class="footer-link">Monday-Friday</p>
-        <p class="#" :class="footer-link">8am-5pm</p>
-        <p class="#" :class="footer-link">Monday-Friday</p>
-        <p class="#" :class="footer-link">6am-5pm</p>
-
-      </div>
-    </div>
-  </section>
 </template>
 
 <style>
@@ -205,6 +48,7 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: 'Heebo', sans-serif;
+
 }
 html{
   scroll-behavior: smooth;
@@ -252,13 +96,18 @@ ul li {
   font-size: 14px;
   color: white;
 }
-
+.nav_logo a{
+  color: white;
+  font-weight: bold;
+  padding-top: 0.6rem;
+}
 .img_logo {
   position: absolute;
   z-index: 0;
   top: -25%;
 
 }
+
 .Slider{
 
   position: relative;
@@ -520,26 +369,42 @@ padding-left: 8rem;
 }
 
 .footer {
-  margin-top: 8rem;
+
   display: grid;
   grid-template-columns: repeat(4, auto);
   justify-content: space-between;
-  padding: 0 8rem;
-
+  padding: 8rem 8rem;
+  padding-bottom: 1rem;
 
 }
 .footer_logo{
-
   display: flex;
-  justify-content: center;
+  padding-bottom: 1rem;
+}
+.footer-diamond{
+  position: relative;
+
+}
+
+.footer-1-description{
+  font-size: 13px;
+  margin-bottom: 1rem;
 }
 .footer-1 .text{
   position: relative;
-}
-
-.footer-diamond {
   z-index: 2;
-  left: 0;
+  top: 1rem;
+  left: 0.7rem;
+
+
+}
+.footer-1-ContactUs{
+  margin-bottom: 1.5rem;
+}
+.footer-diamond {
+
+  position: relative;
+  right: 60px;
 }
 
 .footer-1-logo-collection {
@@ -564,6 +429,9 @@ flex-direction: column;
 display: flex;
 flex-direction: column;
 
+}
+.footer-end{
+  margin-top: 6rem;
 }
 
 </style>

@@ -2,12 +2,7 @@
   var products = [
     {
       name: 'Hello',
-      price: '$10 - $20',
-      image: 'localhost/jewelry/image.png'
-    },
-    {
-      name: 'Dark earings',
-      price: '$10 - $20',
+      price: '$100 - $200',
       image: 'localhost/jewelry/image.png'
     }
 
@@ -25,7 +20,7 @@
         <img src="1.png" alt="" class="gallery-picture">
         <div class="product-price">
           <p>{{ product.name }}</p>
-          <p>$10.00-&20.00</p>
+          <p>{{ product.price }}</p>
         </div>
       </div>
       <div class="gallery-item">
