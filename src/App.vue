@@ -1,5 +1,6 @@
 <script setup>
-
+  import Products from './components/Products.vue';
+  
 </script>
 
 <template>
@@ -8,7 +9,7 @@
     <nav class="nav_navbar">
       <ul class="navbar_links">
         <li class="nav_links"><a href="#">HOME</a></li>
-        <li class="nav_links"><a href="#">PRODUCT</a></li>
+        <li class="nav_links"><a href="#product">PRODUCT</a></li>
         <div class="nav_logo">
           <a href="#">JEWELLERY</a>
           <img src="public/diamond.png" alt="img_logo" class="img_logo" />
@@ -28,7 +29,7 @@
     </div>
     <div class="slider-content">
       <div class="slider-content-head">
-        <h1>PREMIUM HANDMADE JEWELLERY ON EVERY OCCASION</h1>
+        <h1>PREMIUM HANDMADE<br/>JEWELLERY ON EVERY<br/>OCCASION</h1>
       </div>
       <div class="slider-content-description">
         <p>In publishing and graphic design, Lorem ipsum
@@ -111,73 +112,25 @@
       </div>
     </div>
   </section>
-  <section class="Product_gallery">
-    <div class="product-gallery">
-      <div class="gallery-item">
-        <img src="1.png" alt="" class="gallery-picture">
-        <div class="product-price">
-          <p>Dark earings</p>
-          <p>$10.00-&20.00</p>
-        </div>
-      </div>
-      <div class="gallery-item">
-        <img src="2.png" alt="" class="gallery-picture">
-        <div class="product-price">
-          <p>Dark earings</p>
-          <p>$10.00-&20.00</p>
-        </div>
-      </div>
-      <div class="gallery-item">
-        <img src="3.png" alt="" class="gallery-picture">
-        <div class="product-price">
-          <p>Dark earings</p>
-          <p>$10.00-&20.00</p>
-        </div>
 
-      </div>
-      <div class="gallery-item">
-        <img src="4.png" alt="" class="gallery-picture">
-        <div class="product-price">
-          <p>Dark earings</p>
-          <p>$10.00-&20.00</p>
-        </div>
-
-      </div>
-      <div class="gallery-item">
-        <img src="5.png" alt="" class="gallery-picture">
-        <div class="product-price">
-          <p>Dark earings</p>
-          <p>$10.00-&20.00</p>
-        </div>
-
-      </div>
-      <div class="gallery-item">
-        <img src="6.png" alt="" class="gallery-picture">
-        <div class="product-price">
-          <p>Dark earings</p>
-          <p>$10.00-&20.00</p>
-        </div>
-
-      </div>
-    </div>
-  </section>
+  <Products />
 
   <section class="Gallery">
     <div class="gallery">
       <div class="ribbon-picture">
-        <img src="ribbon-1.jpg" alt="jewellery girl" class="ribbon-model">
+        <img src="ribbon-6.jpg" alt="jewellery girl" class="ribbon-model">
       </div>
       <div class="ribbon-picture">
-        <img src="ribbon-2.jpg" alt="jewellery girl" class="ribbon-model">
+        <img src="ribbon-6.jpg" alt="jewellery girl" class="ribbon-model">
       </div>
       <div class="ribbon-picture">
-        <img src="ribbon-3.jpg" alt="jewellery girl" class="ribbon-model">
+        <img src="ribbon-6.jpg" alt="jewellery girl" class="ribbon-model">
       </div>
       <div class="ribbon-picture">
-        <img src="ribbon-4.jpg" alt="jewellery girl" class="ribbon-model">
+        <img src="ribbon-6.jpg" alt="jewellery girl" class="ribbon-model">
       </div>
       <div class="ribbon-picture">
-        <img src="ribbon-5.jpg" alt="jewellery girl" class="ribbon-model">
+        <img src="ribbon-6.jpg" alt="jewellery girl" class="ribbon-model">
       </div>
       <div class="ribbon-picture">
         <img src="ribbon-6.jpg" alt="jewellery girl" class="ribbon-model">
@@ -190,13 +143,55 @@
     <div class="footer">
       <div class="footer-1">
         <div class="footer_logo">
-          <a href="#">JEWELLERY</a>
+          <div class="text">
+            <a href="#">JEWELLERY</a>
+          </div>
           <img src="public/diamond.png" alt="img_logo" class="footer-diamond" />
         </div>
+        <div class="footer-1-description">
+          <p>Quam pulvinar leo euismod id eu <br/>ultricies, Placerat proin rhoncus sit.</p>
+        </div>
+        <div class="footer-1-ContactUs"><a href="#">Contact Us</a></div>
+        <div class="footer-1-logo-collection">
+          <div class="footer-1-logo"><img src="icon _Visa_.png" alt="">
+          </div>
+          <div class="footer-1-logo"><img src="icon _PayPal_.png" alt="">
+          </div>
+          <div class="footer-1-logo"><img src="icon _MasterCard_.png" alt="">
+          </div>
+          <div class="footer-1-logo"><img src="icon _maestro_.png" alt="">
+          </div>
+        </div>
       </div>
-      <div class="footer-2"></div>
-      <div class="footer-3"></div>
-      <div class="footer-4"></div>
+      <div class="footer-2">
+        <p class="footer-headers">Useful links</p>
+        <a href="#" class="foooter-link">Contact us</a>
+        <a href="#" class="foooter-link">Help and About us</a>
+        <a href="#" class="foooter-link">Shipping and Returns</a>
+        <a href="#" class="foooter-link">Refund Policy</a>
+        <p class="footer-headers">Delivery</p>
+        <a href="#" class="foooter-link">How it works</a>
+        <a href="#" class="foooter-link">Free delivery</a>
+        <a href="#" class="foooter-link">FAQ</a>
+      </div>
+      <div class="footer-3">
+        <p class="footer-headers">Customer Service</p>
+        <a href="#" class="footer-link">Orders</a>
+        <a href="#" class="footer-link">Downloads</a>
+        <a href="#" class="footer-link">Adresses</a>
+        <a href="#" class="footer-link">Account Details</a>
+        <a href="#" class="footer-link">Lost password</a>
+      </div>
+      <div class="footer-4">
+        <p class="footer-headers">Customer Service</p>
+        <a href="#" class="footer-header">+61 (0) 383 766 284</a>
+        <a href="#" class="footer-header">+61 (0) 383 766 284</a>
+        <p class="#" :class="footer-link">Monday-Friday</p>
+        <p class="#" :class="footer-link">8am-5pm</p>
+        <p class="#" :class="footer-link">Monday-Friday</p>
+        <p class="#" :class="footer-link">6am-5pm</p>
+
+      </div>
     </div>
   </section>
 </template>
@@ -210,6 +205,9 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: 'Heebo', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
 }
 
 .nav_navbar {
@@ -232,6 +230,8 @@ ul li {
 
 .nav_logo {
   margin: 0 19rem;
+
+
   display: flex;
   position: relative;
   justify-content: center;
@@ -257,6 +257,7 @@ ul li {
   position: absolute;
   z-index: 0;
   top: -25%;
+
 }
 .Slider{
 
@@ -268,14 +269,10 @@ ul li {
   background-color: black;
   display: flex;
 }
-slider-model{
-  overflow-y: hidden;
-}
+
 .model{
 width: 100%;
 height: 100%;
-
-
 }
 
 
@@ -283,9 +280,6 @@ height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  z-index: 2;
-
-
 }
 .slider-content-head{
   line-height: 2.5rem;
@@ -299,8 +293,12 @@ height: 100%;
 .slider-content p {
   color: #ffffff;
   font-size: 1rem;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   line-height: 19px;
+  padding-right: 8rem;
+  
+}
+.slider-content-description{
   padding-right: 2rem;
 }
 .btn{
@@ -323,7 +321,7 @@ height: 100%;
   align-items: center;
   justify-content: center;
   bottom: -25px;
-  left: 48.2%;
+  left: calc(50% - 25px);
 }
 
 .slider-diamond-logo {
@@ -335,20 +333,18 @@ height: 100%;
 
 .hero-section {
   width: 100%;
-  height: 120vh;
+  height: 100vh;
   padding: 0 8rem;
   background-color: #403732;
   display: flex;
+  flex-direction: column;
+
 }
 
 .hero-product {
+  margin-top: 7rem;
   position: relative;
   background-color: #403732;
-  top: 10%;
-  left: 10%;
-  padding: 0 8rem;
-  height: 25rem;
-  width: 80%;
   text-align: center;
 
 }
@@ -366,9 +362,6 @@ height: 100%;
 }
 
 .hero-icons-container {
-  /* position: relative; */
-  /* width: 100%;
-  height: 50%; */
   z-index: 2;
   margin: 4rem 0;
   background-color: #403732;
@@ -376,37 +369,31 @@ height: 100%;
   justify-content: space-between;
 }
 
-.hero-icon {
-  background-color: #403732;
-  width: 120px;
-  height: 160px
-}
 
 .circle {
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   border: 1.5px solid white;
 }
 
 .hero-icon-description {
   color: white;
-  position: relative;
   margin-top: 14px;
 }
 
 .hero-icon-inside {
-  margin-top: 21px;
+  margin-top: 17px;
   margin-left: 4px;
 }
 
 .hero-banner {
-  width: 80%;
-  height: 40rem;
-  position: absolute;
-  top: 95rem;
-  left: 10%;
+  width: 100%;
+  /* height: 40rem; */
+  position: relative;
   display: flex;
+  height: 45rem;
+
 }
 
 .lefthero-banner {
@@ -472,100 +459,111 @@ height: 100%;
   letter-spacing: 2px;
   margin-bottom: 1rem;
 }
-
+.gallery-container{
+  width: 100%;
+  margin-top: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-gallery{
+  margin-top: 20rem;
+}
 .gallery-item {
-  width: 310px;
-  height: 380px;
   background-color: #F9F2EC;
-  margin: 1rem;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.gallery-header{
+padding-left: 8rem;
 
 
 }
-
-.product-gallery {
+.gallery-item-container {
   position: relative;
-  margin-top: 25rem;
+  margin-top: 10%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-left: 8rem;
-  margin-right: 8rem;
+  padding: 0 8rem;
+  gap: 2rem;
 }
 
 .gallery-picture {
-  position: relative;
-  left: 10%;
-  top: 10%;
-  max-width: 80%;
-  max-height: 80%;
+  width: 80%;
 
 }
 
 .product-price {
-  position: relative;
-  margin-left: 1rem;
-  margin-top: 3.5rem;
-  font-size: 14px;
+  padding-top: 1rem;
+
 }
 
 .gallery {
-  width: 80%;
-  height: 160px;
-  background-color: black;
   margin-top: 10rem;
-  margin-left: 8rem;
-  margin-right: 8rem;
-  display: flex;
-
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  padding: 0 8rem;
 }
 
 .ribbon-picture {
-  width: 16.6667%;
-  height: 100%;
-  background-color: red;
-  z-index: 3;
-  overflow: hidden;
+  width: 100%;
+
 }
 
 .ribbon-model {
 
   width: 100%;
+
 }
 
 .footer {
-  margin: 10rem;
+  margin-top: 8rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
+  grid-template-columns: repeat(4, auto);
+  justify-content: space-between;
+  padding: 0 8rem;
 
-.footer-1 {
-  background-color: aqua;
-  height: 230px;
-  width: 220px;
+
+}
+.footer_logo{
+
+  display: flex;
+  justify-content: center;
+}
+.footer-1 .text{
+  position: relative;
 }
 
 .footer-diamond {
   z-index: 2;
-  position: relative;
+  left: 0;
 }
 
-.footer-logo {
+.footer-1-logo-collection {
 
   display: flex;
-  position: relative;
-  justify-content: center;
+
 }
 
 .footer-2 {
-  width: 230px;
-  height: 200px;
-  background-color: blue;
+display: flex;
+flex-direction: column;
 
 }
 
 .footer-3 {
-  background-color: chartreuse;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .footer-4 {
-  background-color: darkorchid;
-}</style>
+display: flex;
+flex-direction: column;
+
+}
+
+</style>
